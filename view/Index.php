@@ -8,11 +8,8 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>Exibindo os dados da view</h1>
-        </div>
-        <div class='panel panel-default'>
-            <div class='panel-body'>
-                <h2>Dados: <?php  echo $dados ?></h2>
+            <h1>Página inicial</h1>
+            <a href="/?pagina=login">Login</a>
         </div>
     </div>
 </body>
